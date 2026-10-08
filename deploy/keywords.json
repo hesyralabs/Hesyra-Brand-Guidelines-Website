@@ -1,0 +1,157 @@
+{
+  "generated_at": "2026-10-09T01:12:36.917366",
+  "month_label": "October 2026",
+  "total_keywords": 10,
+  "top_keywords": [
+    {
+      "keyword": "zirconia crown manufacturer",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "priority_score": 10,
+      "engine": "laya"
+    },
+    {
+      "keyword": "aligner manufacturer",
+      "category": "local_b2b_lab",
+      "intent": "commercial_b2b",
+      "priority_score": 10,
+      "engine": "laya"
+    },
+    {
+      "keyword": "clear aligners manufacturers in india",
+      "category": "clear_aligners",
+      "intent": "commercial_b2b",
+      "priority_score": 10,
+      "engine": "laya"
+    },
+    {
+      "keyword": "creative dental lab nagpur",
+      "category": "local_b2b_lab",
+      "intent": "commercial_b2b",
+      "priority_score": 10,
+      "engine": "laya"
+    },
+    {
+      "keyword": "nagpur dental lab",
+      "category": "local_b2b_lab",
+      "intent": "commercial_b2b",
+      "priority_score": 10,
+      "engine": "laya"
+    },
+    {
+      "keyword": "zirconia crown clearance",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "priority_score": 9,
+      "engine": "laya"
+    },
+    {
+      "keyword": "cad cam dental lab jobs",
+      "category": "dentures_cadcam",
+      "intent": "commercial_b2b",
+      "priority_score": 9,
+      "engine": "laya"
+    },
+    {
+      "keyword": "cad cam denture design",
+      "category": "dentures_cadcam",
+      "intent": "commercial_b2b",
+      "priority_score": 8,
+      "engine": "laya"
+    },
+    {
+      "keyword": "cad cam partial dentures",
+      "category": "dentures_cadcam",
+      "intent": "commercial_b2b",
+      "priority_score": 8,
+      "engine": "laya"
+    },
+    {
+      "keyword": "cad cam full denture",
+      "category": "dentures_cadcam",
+      "intent": "commercial_b2b",
+      "priority_score": 8,
+      "engine": "laya"
+    }
+  ],
+  "by_category": {
+    "zirconia_crowns": [
+      {
+        "keyword": "zirconia crown manufacturer",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "priority_score": 10,
+        "engine": "laya"
+      },
+      {
+        "keyword": "zirconia crown clearance",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "priority_score": 9,
+        "engine": "laya"
+      }
+    ],
+    "local_b2b_lab": [
+      {
+        "keyword": "aligner manufacturer",
+        "category": "local_b2b_lab",
+        "intent": "commercial_b2b",
+        "priority_score": 10,
+        "engine": "laya"
+      },
+      {
+        "keyword": "creative dental lab nagpur",
+        "category": "local_b2b_lab",
+        "intent": "commercial_b2b",
+        "priority_score": 10,
+        "engine": "laya"
+      },
+      {
+        "keyword": "nagpur dental lab",
+        "category": "local_b2b_lab",
+        "intent": "commercial_b2b",
+        "priority_score": 10,
+        "engine": "laya"
+      }
+    ],
+    "clear_aligners": [
+      {
+        "keyword": "clear aligners manufacturers in india",
+        "category": "clear_aligners",
+        "intent": "commercial_b2b",
+        "priority_score": 10,
+        "engine": "laya"
+      }
+    ],
+    "dentures_cadcam": [
+      {
+        "keyword": "cad cam dental lab jobs",
+        "category": "dentures_cadcam",
+        "intent": "commercial_b2b",
+        "priority_score": 9,
+        "engine": "laya"
+      },
+      {
+        "keyword": "cad cam denture design",
+        "category": "dentures_cadcam",
+        "intent": "commercial_b2b",
+        "priority_score": 8,
+        "engine": "laya"
+      },
+      {
+        "keyword": "cad cam partial dentures",
+        "category": "dentures_cadcam",
+        "intent": "commercial_b2b",
+        "priority_score": 8,
+        "engine": "laya"
+      },
+      {
+        "keyword": "cad cam full denture",
+        "category": "dentures_cadcam",
+        "intent": "commercial_b2b",
+        "priority_score": 8,
+        "engine": "laya"
+      }
+    ]
+  }
+}
