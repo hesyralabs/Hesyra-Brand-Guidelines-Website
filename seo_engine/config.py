@@ -1,12 +1,12 @@
-from pathlib import Path
-BASE_DIR = Path(__file__).resolve().parent.parent
 """
-Configuration & Schema definitions for Hesyra SEO Keyword Engine.
+Configuration & Expanded Dental Seeds for Deep Web Scraping.
 """
 
+from pathlib import Path
 from typing import Dict, Any, List
 
-# Target brand profile context used for Laya / Jev decision scoring
+BASE_DIR = Path(__file__).resolve().parent.parent
+
 BRAND_CONTEXT: Dict[str, Any] = {
     "brand_name": "Hesyra Labs",
     "location": "Nagpur, Maharashtra, India",
@@ -25,25 +25,34 @@ BRAND_CONTEXT: Dict[str, Any] = {
     ]
 }
 
-# Seed query buckets for scraping
 SEED_TOPICS: List[Dict[str, Any]] = [
     {
         "category": "zirconia_crowns",
         "seeds": [
             "zirconia crown",
             "zirconia bridge",
-            "monolithic zirconia cost",
-            "multilayer zirconia crown india",
-            "dental lab zirconia price"
+            "monolithic zirconia",
+            "multilayer zirconia crown",
+            "zirconia crown lab",
+            "zirconia tooth cap",
+            "bruxzir zirconia crown",
+            "zirconia milling center",
+            "dental crown lab price india",
+            "anterior zirconia crown"
         ]
     },
     {
         "category": "clear_aligners",
         "seeds": [
             "clear aligners b2b",
-            "invisible aligners lab manufacturer",
-            "dental aligner lab india",
-            "orthodontic aligner manufacturing"
+            "invisible aligners lab",
+            "clear aligner manufacturer india",
+            "orthodontic aligner fabrication",
+            "white label clear aligners",
+            "aligners for dentists b2b",
+            "custom clear aligner lab",
+            "clear aligner sheets manufacturing",
+            "invisalign alternative lab india"
         ]
     },
     {
@@ -51,22 +60,30 @@ SEED_TOPICS: List[Dict[str, Any]] = [
         "seeds": [
             "cad cam dentures",
             "flexible denture lab",
-            "3d printed dentures lab india",
-            "dental prosthesis manufacturer"
+            "3d printed dentures lab",
+            "cast partial denture manufacturer",
+            "digital complete denture",
+            "lucitone digital print dentures",
+            "removable partial denture lab",
+            "implant supported overdenture lab"
         ]
     },
     {
         "category": "local_b2b_lab",
         "seeds": [
             "dental lab nagpur",
-            "digital dental laboratory maharashtra",
-            "best dental lab for doctors india",
-            "dental lab 48 hour turnaround"
+            "digital dental laboratory nagpur",
+            "best dental lab in vidarbha",
+            "dental laboratory maharashtra",
+            "cad cam milling nagpur",
+            "dental prosthetics nagpur",
+            "dental lab 48 hour delivery",
+            "dental lab near me b2b",
+            "dental clinic lab supplier"
         ]
     }
 ]
 
-# Strict schema for Laya & Jev decision evaluation
 KEYWORD_SCHEMA: Dict[str, Any] = {
     "type": "object",
     "properties": {
@@ -87,3 +104,4 @@ KEYWORD_SCHEMA: Dict[str, Any] = {
 
 OUTPUT_JSON_PATH = BASE_DIR / "deploy" / "keywords.json"
 OUTPUT_REPORT_PATH = BASE_DIR / "deploy" / "keywords_report.md"
+OUTPUT_DASHBOARD_PATH = BASE_DIR / "deploy" / "seo-dashboard.html"

@@ -1,65 +1,59 @@
-# Hesyra Labs — Monthly Keyword Intelligence Report
+# Hesyra Labs - Monthly Keyword Intelligence Report
 **Month:** October 2026  
-**Generated:** 2026-10-09T01:18:43.391579  
-**Candidate Pool Evaluated:** 28  
-**Accepted Keywords:** 14  
-**Rejected Candidates:** 14
+**Generated:** 2026-10-09T01:41:48.844787  
+**Candidate Pool Evaluated:** 150  
+**Accepted High-Value Keywords:** 32  
+**Rejected Filtered Out:** 118
 
-## Top Qualified Keywords (What Works)
+## Top Qualified Keywords (Sample of Winners)
 | Rank | Keyword | Category | Intent | Score | Engine |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | **zirconia crown manufacturers in india** | `zirconia_crowns` | `commercial_b2b` | **10/10** | `laya` |
+| 1 | **zirconia crown lab near me** | `zirconia_crowns` | `commercial_b2b` | **10/10** | `laya` |
 | 2 | **zirconia crown lab procedure** | `zirconia_crowns` | `commercial_b2b` | **10/10** | `laya` |
-| 3 | **aligner in nagpur** | `local_b2b_lab` | `commercial_b2b` | **10/10** | `laya` |
-| 4 | **clear aligners manufacturers** | `clear_aligners` | `commercial_b2b` | **10/10** | `laya` |
-| 5 | **creative dental lab nagpur** | `local_b2b_lab` | `commercial_b2b` | **10/10** | `laya` |
-| 6 | **dental lab nagpur** | `local_b2b_lab` | `commercial_b2b` | **10/10** | `laya` |
-| 7 | **best clear aligners near me** | `clear_aligners` | `commercial_b2b` | **9/10** | `laya` |
-| 8 | **clear aligners buy** | `clear_aligners` | `commercial_b2b` | **9/10** | `laya` |
-| 9 | **cad cam dental lab reviews** | `dentures_cadcam` | `commercial_b2b` | **9/10** | `laya` |
-| 10 | **cad cam dental lab. llc photos** | `dentures_cadcam` | `commercial_b2b` | **9/10** | `laya` |
-| 11 | **materials used in cad cam complete dentures** | `dentures_cadcam` | `commercial_b2b` | **8/10** | `laya` |
-| 12 | **cad cam digital dentures** | `dentures_cadcam` | `commercial_b2b` | **8/10** | `laya` |
-| 13 | **cad cam removable partial dentures** | `dentures_cadcam` | `commercial_b2b` | **8/10** | `laya` |
-| 14 | **cad cam dental companies** | `local_b2b_lab` | `commercial_b2b` | **8/10** | `laya` |
+| 3 | **zirconia crown lab prescription** | `zirconia_crowns` | `commercial_b2b` | **10/10** | `laya` |
+| 4 | **zirconia crown dental lab** | `zirconia_crowns` | `commercial_b2b` | **10/10** | `laya` |
+| 5 | **retainer crown zirconia lab made** | `zirconia_crowns` | `commercial_b2b` | **10/10** | `laya` |
+| 6 | **retainer crown zirconia lab made post** | `zirconia_crowns` | `commercial_b2b` | **10/10** | `laya` |
+| 7 | **zirconia crown lab canada** | `zirconia_crowns` | `commercial_b2b` | **10/10** | `laya` |
+| 8 | **zirconia crowns manufacturers** | `zirconia_crowns` | `commercial_b2b` | **10/10** | `laya` |
+| 9 | **zirconia manufacturers in india** | `zirconia_crowns` | `commercial_b2b` | **10/10** | `laya` |
+| 10 | **zirconia crown manufacturers in india** | `zirconia_crowns` | `commercial_b2b` | **10/10** | `laya` |
+| 11 | **zirconia crown manufacturers** | `zirconia_crowns` | `commercial_b2b` | **10/10** | `laya` |
+| 12 | **zirconia dental crown manufacturers** | `zirconia_crowns` | `commercial_b2b` | **10/10** | `laya` |
+| 13 | **zirconia crowns near me** | `zirconia_crowns` | `commercial_b2b` | **9/10** | `laya` |
+| 14 | **3d multilayer zirconia crowns** | `zirconia_crowns` | `commercial_b2b` | **9/10** | `laya` |
+| 15 | **multilayer zirconia crown** | `zirconia_crowns` | `commercial_b2b` | **9/10** | `laya` |
+| 16 | **multi layered zirconia crown** | `zirconia_crowns` | `commercial_b2b` | **9/10** | `laya` |
+| 17 | **zirconia bridge abutment** | `zirconia_crowns` | `commercial_b2b` | **9/10** | `laya` |
+| 18 | **monolithic zirconia** | `zirconia_crowns` | `commercial_b2b` | **9/10** | `laya` |
+| 19 | **zirconia full contour crown** | `zirconia_crowns` | `commercial_b2b` | **9/10** | `laya` |
+| 20 | **dental crown material zirconia** | `zirconia_crowns` | `commercial_b2b` | **9/10** | `laya` |
+| 21 | **porcelain layered zirconia crowns** | `zirconia_crowns` | `commercial_b2b` | **9/10** | `laya` |
+| 22 | **zirconia crown cementation material** | `zirconia_crowns` | `commercial_b2b` | **9/10** | `laya` |
+| 23 | **zirconia crown preparation** | `zirconia_crowns` | `commercial_b2b` | **9/10** | `laya` |
+| 24 | **zirconia crown** | `zirconia_crowns` | `commercial_b2b` | **9/10** | `laya` |
+| 25 | **zirconia crown dental** | `zirconia_crowns` | `commercial_b2b` | **9/10** | `laya` |
 
-## Rejected Candidates (What Was Filtered Out)
+## Filtered Candidates Sample
 | Candidate | Category Assigned | Intent | Filter Reason |
 | :--- | :--- | :--- | :--- |
-| price range of zirconia crown | `zirconia_crowns` | `commercial_b2b` | Not relevant to B2B lab operations or low commercial fit |
-| zirconia crown cutting | `zirconia_crowns` | `commercial_b2b` | Not relevant to B2B lab operations or low commercial fit |
-| zirconia crown bridge | `zirconia_crowns` | `commercial_b2b` | Not relevant to B2B lab operations or low commercial fit |
-| zirconia crown lab cost | `zirconia_crowns` | `commercial_b2b` | Not relevant to B2B lab operations or low commercial fit |
-| zirconia crown cap price | `zirconia_crowns` | `commercial_b2b` | Not relevant to B2B lab operations or low commercial fit |
-| clear b aligners | `clear_aligners` | `commercial_b2b` | Not relevant to B2B lab operations or low commercial fit |
-| cost of clear aligners in india | `clear_aligners` | `commercial_b2b` | Not relevant to B2B lab operations or low commercial fit |
-| aligners cost near nagpur maharashtra | `local_b2b_lab` | `commercial_b2b` | Not relevant to B2B lab operations or low commercial fit |
-| cad cam dentures ppt | `dentures_cadcam` | `commercial_b2b` | Not relevant to B2B lab operations or low commercial fit |
-| rk dental lab nagpur | `local_b2b_lab` | `commercial_b2b` | Not relevant to B2B lab operations or low commercial fit |
-| nagpur dental hospital | `local_b2b_lab` | `commercial_b2b` | Not relevant to B2B lab operations or low commercial fit |
-| is labcorp a reputable lab | `local_b2b_lab` | `commercial_b2b` | Not relevant to B2B lab operations or low commercial fit |
-| vishal dental lab nagpur | `local_b2b_lab` | `commercial_b2b` | Not relevant to B2B lab operations or low commercial fit |
-| vishal dental lab dental lab in nagpur photos | `zirconia_crowns` | `commercial_b2b` | Not relevant to B2B lab operations or low commercial fit |
-
-## Breakdown by Category
-### Zirconia Crowns (2 terms)
-- **zirconia crown manufacturers in india** (Score: 10/10, Intent: commercial_b2b)
-- **zirconia crown lab procedure** (Score: 10/10, Intent: commercial_b2b)
-
-### Local B2B Lab (4 terms)
-- **aligner in nagpur** (Score: 10/10, Intent: commercial_b2b)
-- **creative dental lab nagpur** (Score: 10/10, Intent: commercial_b2b)
-- **dental lab nagpur** (Score: 10/10, Intent: commercial_b2b)
-- **cad cam dental companies** (Score: 8/10, Intent: commercial_b2b)
-
-### Clear Aligners (3 terms)
-- **clear aligners manufacturers** (Score: 10/10, Intent: commercial_b2b)
-- **best clear aligners near me** (Score: 9/10, Intent: commercial_b2b)
-- **clear aligners buy** (Score: 9/10, Intent: commercial_b2b)
-
-### Dentures Cadcam (5 terms)
-- **cad cam dental lab reviews** (Score: 9/10, Intent: commercial_b2b)
-- **cad cam dental lab. llc photos** (Score: 9/10, Intent: commercial_b2b)
-- **materials used in cad cam complete dentures** (Score: 8/10, Intent: commercial_b2b)
-- **cad cam digital dentures** (Score: 8/10, Intent: commercial_b2b)
-- **cad cam removable partial dentures** (Score: 8/10, Intent: commercial_b2b)
+| multilayered zirconia crown | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| multilayer zirconia blanks | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| multilayered zirconia | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| multilayer zirconia blocks | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| zirconia crown price in india | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| cost of zirconia crown in india | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| zirconia crown price in pakistan | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| zirconia crown lab cost | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| zirconia crown lab price | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| how much does zirconia crown cost | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| lab fee for zirconia crown | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| is zirconia crown expensive | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| zirconia crown lab charges | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| zirconia crown lab vancouver | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| zirconia crown baby tooth | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| multilayer zirconia crown price | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| is zirconia the best crown | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| what is a layered zirconia crown | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| what is zirconia crown | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |
+| how much zirconia crown | `zirconia_crowns` | `commercial_b2b` | Consumer/patient query, non-commercial, or outside lab scope |

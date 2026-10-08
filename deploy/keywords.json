@@ -1,214 +1,652 @@
 {
-  "generated_at": "2026-10-09T01:18:43.391579",
+  "generated_at": "2026-10-09T01:41:48.844787",
   "month_label": "October 2026",
-  "total_keywords": 14,
-  "total_evaluated": 28,
-  "total_rejected": 14,
+  "total_keywords": 32,
+  "total_evaluated": 150,
+  "total_rejected": 118,
   "top_keywords": [
     {
-      "keyword": "zirconia crown manufacturers in india",
+      "keyword": "zirconia crown lab near me",
       "category": "zirconia_crowns",
       "intent": "commercial_b2b",
+      "status": "ACCEPTED",
       "priority_score": 10,
-      "engine": "laya"
+      "score": 10,
+      "engine": "laya",
+      "reason": "Direct clinic-to-laboratory manufacturing partner search"
     },
     {
       "keyword": "zirconia crown lab procedure",
       "category": "zirconia_crowns",
       "intent": "commercial_b2b",
+      "status": "ACCEPTED",
       "priority_score": 10,
-      "engine": "laya"
+      "score": 10,
+      "engine": "laya",
+      "reason": "Direct clinic-to-laboratory manufacturing partner search"
     },
     {
-      "keyword": "aligner in nagpur",
-      "category": "local_b2b_lab",
+      "keyword": "zirconia crown lab prescription",
+      "category": "zirconia_crowns",
       "intent": "commercial_b2b",
+      "status": "ACCEPTED",
       "priority_score": 10,
-      "engine": "laya"
+      "score": 10,
+      "engine": "laya",
+      "reason": "Direct clinic-to-laboratory manufacturing partner search"
     },
     {
-      "keyword": "clear aligners manufacturers",
-      "category": "clear_aligners",
+      "keyword": "zirconia crown dental lab",
+      "category": "zirconia_crowns",
       "intent": "commercial_b2b",
+      "status": "ACCEPTED",
       "priority_score": 10,
-      "engine": "laya"
+      "score": 10,
+      "engine": "laya",
+      "reason": "Direct clinic-to-laboratory manufacturing partner search"
     },
     {
-      "keyword": "creative dental lab nagpur",
-      "category": "local_b2b_lab",
+      "keyword": "retainer crown zirconia lab made",
+      "category": "zirconia_crowns",
       "intent": "commercial_b2b",
+      "status": "ACCEPTED",
       "priority_score": 10,
-      "engine": "laya"
+      "score": 10,
+      "engine": "laya",
+      "reason": "Direct clinic-to-laboratory manufacturing partner search"
     },
     {
-      "keyword": "dental lab nagpur",
-      "category": "local_b2b_lab",
+      "keyword": "retainer crown zirconia lab made post",
+      "category": "zirconia_crowns",
       "intent": "commercial_b2b",
+      "status": "ACCEPTED",
       "priority_score": 10,
-      "engine": "laya"
+      "score": 10,
+      "engine": "laya",
+      "reason": "Direct clinic-to-laboratory manufacturing partner search"
     },
     {
-      "keyword": "best clear aligners near me",
-      "category": "clear_aligners",
+      "keyword": "zirconia crown lab canada",
+      "category": "zirconia_crowns",
       "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 10,
+      "score": 10,
+      "engine": "laya",
+      "reason": "Direct clinic-to-laboratory manufacturing partner search"
+    },
+    {
+      "keyword": "zirconia crowns manufacturers",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 10,
+      "score": 10,
+      "engine": "laya",
+      "reason": "Direct clinic-to-laboratory manufacturing partner search"
+    },
+    {
+      "keyword": "zirconia manufacturers in india",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 10,
+      "score": 10,
+      "engine": "laya",
+      "reason": "Direct clinic-to-laboratory manufacturing partner search"
+    },
+    {
+      "keyword": "zirconia crown manufacturers in india",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 10,
+      "score": 10,
+      "engine": "laya",
+      "reason": "Direct clinic-to-laboratory manufacturing partner search"
+    },
+    {
+      "keyword": "zirconia crown manufacturers",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 10,
+      "score": 10,
+      "engine": "laya",
+      "reason": "Direct clinic-to-laboratory manufacturing partner search"
+    },
+    {
+      "keyword": "zirconia dental crown manufacturers",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 10,
+      "score": 10,
+      "engine": "laya",
+      "reason": "Direct clinic-to-laboratory manufacturing partner search"
+    },
+    {
+      "keyword": "zirconia crowns near me",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
       "priority_score": 9,
-      "engine": "laya"
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
     },
     {
-      "keyword": "clear aligners buy",
-      "category": "clear_aligners",
+      "keyword": "3d multilayer zirconia crowns",
+      "category": "zirconia_crowns",
       "intent": "commercial_b2b",
+      "status": "ACCEPTED",
       "priority_score": 9,
-      "engine": "laya"
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
     },
     {
-      "keyword": "cad cam dental lab reviews",
-      "category": "dentures_cadcam",
+      "keyword": "multilayer zirconia crown",
+      "category": "zirconia_crowns",
       "intent": "commercial_b2b",
+      "status": "ACCEPTED",
       "priority_score": 9,
-      "engine": "laya"
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
     },
     {
-      "keyword": "cad cam dental lab. llc photos",
-      "category": "dentures_cadcam",
+      "keyword": "multi layered zirconia crown",
+      "category": "zirconia_crowns",
       "intent": "commercial_b2b",
+      "status": "ACCEPTED",
       "priority_score": 9,
-      "engine": "laya"
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
     },
     {
-      "keyword": "materials used in cad cam complete dentures",
-      "category": "dentures_cadcam",
+      "keyword": "zirconia bridge abutment",
+      "category": "zirconia_crowns",
       "intent": "commercial_b2b",
-      "priority_score": 8,
-      "engine": "laya"
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
     },
     {
-      "keyword": "cad cam digital dentures",
-      "category": "dentures_cadcam",
+      "keyword": "monolithic zirconia",
+      "category": "zirconia_crowns",
       "intent": "commercial_b2b",
-      "priority_score": 8,
-      "engine": "laya"
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
     },
     {
-      "keyword": "cad cam removable partial dentures",
-      "category": "dentures_cadcam",
+      "keyword": "zirconia full contour crown",
+      "category": "zirconia_crowns",
       "intent": "commercial_b2b",
-      "priority_score": 8,
-      "engine": "laya"
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
     },
     {
-      "keyword": "cad cam dental companies",
-      "category": "local_b2b_lab",
+      "keyword": "dental crown material zirconia",
+      "category": "zirconia_crowns",
       "intent": "commercial_b2b",
-      "priority_score": 8,
-      "engine": "laya"
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+    },
+    {
+      "keyword": "porcelain layered zirconia crowns",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+    },
+    {
+      "keyword": "zirconia crown cementation material",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+    },
+    {
+      "keyword": "zirconia crown preparation",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+    },
+    {
+      "keyword": "zirconia crown",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+    },
+    {
+      "keyword": "zirconia crown dental",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+    },
+    {
+      "keyword": "zirconia crown material",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+    },
+    {
+      "keyword": "zirconia crown prep",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+    },
+    {
+      "keyword": "zirconia crown dental code",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+    },
+    {
+      "keyword": "zirconia crown company",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+    },
+    {
+      "keyword": "zirconia crown supplier",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+    },
+    {
+      "keyword": "brands of zirconia crowns",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+    },
+    {
+      "keyword": "zirconia bridge teeth",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "status": "ACCEPTED",
+      "priority_score": 9,
+      "score": 9,
+      "engine": "laya",
+      "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
     }
   ],
   "by_category": {
     "zirconia_crowns": [
       {
-        "keyword": "zirconia crown manufacturers in india",
+        "keyword": "zirconia crown lab near me",
         "category": "zirconia_crowns",
         "intent": "commercial_b2b",
+        "status": "ACCEPTED",
         "priority_score": 10,
-        "engine": "laya"
+        "score": 10,
+        "engine": "laya",
+        "reason": "Direct clinic-to-laboratory manufacturing partner search"
       },
       {
         "keyword": "zirconia crown lab procedure",
         "category": "zirconia_crowns",
         "intent": "commercial_b2b",
+        "status": "ACCEPTED",
         "priority_score": 10,
-        "engine": "laya"
-      }
-    ],
-    "local_b2b_lab": [
-      {
-        "keyword": "aligner in nagpur",
-        "category": "local_b2b_lab",
-        "intent": "commercial_b2b",
-        "priority_score": 10,
-        "engine": "laya"
+        "score": 10,
+        "engine": "laya",
+        "reason": "Direct clinic-to-laboratory manufacturing partner search"
       },
       {
-        "keyword": "creative dental lab nagpur",
-        "category": "local_b2b_lab",
+        "keyword": "zirconia crown lab prescription",
+        "category": "zirconia_crowns",
         "intent": "commercial_b2b",
+        "status": "ACCEPTED",
         "priority_score": 10,
-        "engine": "laya"
+        "score": 10,
+        "engine": "laya",
+        "reason": "Direct clinic-to-laboratory manufacturing partner search"
       },
       {
-        "keyword": "dental lab nagpur",
-        "category": "local_b2b_lab",
+        "keyword": "zirconia crown dental lab",
+        "category": "zirconia_crowns",
         "intent": "commercial_b2b",
+        "status": "ACCEPTED",
         "priority_score": 10,
-        "engine": "laya"
+        "score": 10,
+        "engine": "laya",
+        "reason": "Direct clinic-to-laboratory manufacturing partner search"
       },
       {
-        "keyword": "cad cam dental companies",
-        "category": "local_b2b_lab",
+        "keyword": "retainer crown zirconia lab made",
+        "category": "zirconia_crowns",
         "intent": "commercial_b2b",
-        "priority_score": 8,
-        "engine": "laya"
-      }
-    ],
-    "clear_aligners": [
-      {
-        "keyword": "clear aligners manufacturers",
-        "category": "clear_aligners",
-        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
         "priority_score": 10,
-        "engine": "laya"
+        "score": 10,
+        "engine": "laya",
+        "reason": "Direct clinic-to-laboratory manufacturing partner search"
       },
       {
-        "keyword": "best clear aligners near me",
-        "category": "clear_aligners",
+        "keyword": "retainer crown zirconia lab made post",
+        "category": "zirconia_crowns",
         "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 10,
+        "score": 10,
+        "engine": "laya",
+        "reason": "Direct clinic-to-laboratory manufacturing partner search"
+      },
+      {
+        "keyword": "zirconia crown lab canada",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 10,
+        "score": 10,
+        "engine": "laya",
+        "reason": "Direct clinic-to-laboratory manufacturing partner search"
+      },
+      {
+        "keyword": "zirconia crowns manufacturers",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 10,
+        "score": 10,
+        "engine": "laya",
+        "reason": "Direct clinic-to-laboratory manufacturing partner search"
+      },
+      {
+        "keyword": "zirconia manufacturers in india",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 10,
+        "score": 10,
+        "engine": "laya",
+        "reason": "Direct clinic-to-laboratory manufacturing partner search"
+      },
+      {
+        "keyword": "zirconia crown manufacturers in india",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 10,
+        "score": 10,
+        "engine": "laya",
+        "reason": "Direct clinic-to-laboratory manufacturing partner search"
+      },
+      {
+        "keyword": "zirconia crown manufacturers",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 10,
+        "score": 10,
+        "engine": "laya",
+        "reason": "Direct clinic-to-laboratory manufacturing partner search"
+      },
+      {
+        "keyword": "zirconia dental crown manufacturers",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 10,
+        "score": 10,
+        "engine": "laya",
+        "reason": "Direct clinic-to-laboratory manufacturing partner search"
+      },
+      {
+        "keyword": "zirconia crowns near me",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
         "priority_score": 9,
-        "engine": "laya"
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
       },
       {
-        "keyword": "clear aligners buy",
-        "category": "clear_aligners",
+        "keyword": "3d multilayer zirconia crowns",
+        "category": "zirconia_crowns",
         "intent": "commercial_b2b",
+        "status": "ACCEPTED",
         "priority_score": 9,
-        "engine": "laya"
-      }
-    ],
-    "dentures_cadcam": [
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+      },
       {
-        "keyword": "cad cam dental lab reviews",
-        "category": "dentures_cadcam",
+        "keyword": "multilayer zirconia crown",
+        "category": "zirconia_crowns",
         "intent": "commercial_b2b",
+        "status": "ACCEPTED",
         "priority_score": 9,
-        "engine": "laya"
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
       },
       {
-        "keyword": "cad cam dental lab. llc photos",
-        "category": "dentures_cadcam",
+        "keyword": "multi layered zirconia crown",
+        "category": "zirconia_crowns",
         "intent": "commercial_b2b",
+        "status": "ACCEPTED",
         "priority_score": 9,
-        "engine": "laya"
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
       },
       {
-        "keyword": "materials used in cad cam complete dentures",
-        "category": "dentures_cadcam",
+        "keyword": "zirconia bridge abutment",
+        "category": "zirconia_crowns",
         "intent": "commercial_b2b",
-        "priority_score": 8,
-        "engine": "laya"
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
       },
       {
-        "keyword": "cad cam digital dentures",
-        "category": "dentures_cadcam",
+        "keyword": "monolithic zirconia",
+        "category": "zirconia_crowns",
         "intent": "commercial_b2b",
-        "priority_score": 8,
-        "engine": "laya"
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
       },
       {
-        "keyword": "cad cam removable partial dentures",
-        "category": "dentures_cadcam",
+        "keyword": "zirconia full contour crown",
+        "category": "zirconia_crowns",
         "intent": "commercial_b2b",
-        "priority_score": 8,
-        "engine": "laya"
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+      },
+      {
+        "keyword": "dental crown material zirconia",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+      },
+      {
+        "keyword": "porcelain layered zirconia crowns",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+      },
+      {
+        "keyword": "zirconia crown cementation material",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+      },
+      {
+        "keyword": "zirconia crown preparation",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+      },
+      {
+        "keyword": "zirconia crown",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+      },
+      {
+        "keyword": "zirconia crown dental",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+      },
+      {
+        "keyword": "zirconia crown material",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+      },
+      {
+        "keyword": "zirconia crown prep",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+      },
+      {
+        "keyword": "zirconia crown dental code",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+      },
+      {
+        "keyword": "zirconia crown company",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+      },
+      {
+        "keyword": "zirconia crown supplier",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+      },
+      {
+        "keyword": "brands of zirconia crowns",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
+      },
+      {
+        "keyword": "zirconia bridge teeth",
+        "category": "zirconia_crowns",
+        "intent": "commercial_b2b",
+        "status": "ACCEPTED",
+        "priority_score": 9,
+        "score": 9,
+        "engine": "laya",
+        "reason": "Direct fit for Hesyra B2B lab catalog & commercial intent"
       }
     ]
   }
