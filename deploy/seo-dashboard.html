@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hesyra Labs — SEO Keyword Intelligence Dashboard</title>
+  <link rel="icon" href="assets/logo-small.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #001224;
+      --card-bg: rgba(0, 26, 51, 0.75);
+      --card-border: rgba(122, 156, 150, 0.22);
+      --text: #E8E6E5;
+      --text-muted: #8F9D9F;
+      --teal: #7A9C96;
+      --teal-light: #90B5AE;
+      --green: #10B981;
+      --green-bg: rgba(16, 185, 129, 0.14);
+      --red: #F43F5E;
+      --red-bg: rgba(244, 63, 94, 0.14);
+      --navy-dark: #000E1A;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', -apple-system, sans-serif;
+      min-height: 100vh;
+      padding: 32px 24px;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 28px;
+      flex-wrap: wrap;
+      gap: 16px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 24px;
+    }
+    .brand-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .badge-sub {
+      font-size: 11px;
+      background: rgba(122, 156, 150, 0.2);
+      color: var(--teal-light);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .header-desc {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-top: 6px;
+    }
+    .header-actions {
+      display: flex;
+      gap: 12px;
+    }
+    .btn {
+      background: var(--teal);
+      color: #001A33;
+      font-weight: 600;
+      padding: 10px 18px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-size: 13px;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+    }
+    .btn:hover { background: #8bb3ac; transform: translateY(-1px); }
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text);
+      border: 1px solid var(--card-border);
+    }
+    .btn-secondary:hover { background: rgba(255, 255, 255, 0.14); }
+
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+    .metric-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      backdrop-filter: blur(12px);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .metric-label {
+      font-size: 12px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .metric-val {
+      font-size: 28px;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+    }
+    .metric-sub {
+      font-size: 12px;
+      color: var(--teal-light);
+    }
+    .metric-val.green { color: var(--green); }
+    .metric-val.red { color: var(--red); }
+
+    .controls-bar {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .search-input {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid var(--card-border);
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: 14px;
+      min-width: 280px;
+      outline: none;
+    }
+    .search-input:focus { border-color: var(--teal); }
+    .filter-pills {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .pill {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      cursor: pointer;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .pill:hover { color: #fff; background: rgba(255, 255, 255, 0.1); }
+    .pill.active {
+      background: var(--teal);
+      color: #001A33;
+      border-color: var(--teal);
+      font-weight: 600;
+    }
+
+    .table-container {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 32px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 13px;
+    }
+    thead th {
+      background: rgba(0, 0, 0, 0.4);
+      color: var(--text-muted);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--card-border);
+      font-weight: 600;
+    }
+    tbody tr {
+      border-bottom: 1px solid rgba(122, 156, 150, 0.08);
+      transition: background 0.15s;
+    }
+    tbody tr:hover {
+      background: rgba(255, 255, 255, 0.02);
+    }
+    td {
+      padding: 14px 18px;
+      vertical-align: middle;
+    }
+    .kw-title {
+      font-weight: 600;
+      color: #fff;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .status-badge.accepted {
+      background: var(--green-bg);
+      color: var(--green);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+    .status-badge.rejected {
+      background: var(--red-bg);
+      color: var(--red);
+      border: 1px solid rgba(244, 63, 94, 0.3);
+    }
+    .tag {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 500;
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-muted);
+    }
+    .score-bar-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 110px;
+    }
+    .score-num {
+      font-weight: 700;
+      font-size: 13px;
+      color: #fff;
+      min-width: 38px;
+    }
+    .score-track {
+      flex: 1;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .score-fill {
+      height: 100%;
+      border-radius: 3px;
+    }
+    .score-fill.high { background: var(--teal); }
+    .score-fill.med { background: #F59E0B; }
+    .score-fill.low { background: var(--red); }
+    .decision-reason {
+      color: var(--text-muted);
+      font-size: 12px;
+      max-width: 380px;
+      line-height: 1.4;
+    }
+
+    .meta-box {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 32px;
+    }
+    .meta-box h3 {
+      font-size: 16px;
+      color: #fff;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .code-preview {
+      background: #000c17;
+      border: 1px solid var(--card-border);
+      padding: 14px 18px;
+      border-radius: 8px;
+      color: var(--teal-light);
+      font-family: monospace;
+      font-size: 13px;
+      word-break: break-all;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <div class="brand-title">
+          <span>Hesyra Labs</span>
+          <span class="badge-sub">SEO Intelligence Dashboard</span>
+        </div>
+        <p class="header-desc">Real-time candidate scraper & Laya / Jev System-1 decision scoring engine.</p>
+      </div>
+      <div class="header-actions">
+        <a href="index.html" class="btn btn-secondary">← Back to Site</a>
+        <button class="btn" onclick="copyMetaTag()">📋 Copy Live Meta Tag</button>
+      </div>
+    </header>
+
+    <!-- Metrics -->
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <div class="metric-label">Candidates Scraped</div>
+        <div class="metric-val" id="metricTotal">28 <span class="metric-sub">Queries</span></div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Accepted (What Works)</div>
+        <div class="metric-val green" id="metricAccepted">14 <span class="metric-sub">50% Pass Rate</span></div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Rejected (Noise Filtered)</div>
+        <div class="metric-val red" id="metricRejected">14 <span class="metric-sub">Filtered Out</span></div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Decision Engine</div>
+        <div class="metric-val">Laya <span class="metric-sub">~33ms System-1</span></div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls-bar">
+      <input type="text" id="searchInput" class="search-input" placeholder="Search keywords or reasons..." onkeyup="filterKeywords()">
+      <div class="filter-pills">
+        <button class="pill active" onclick="setStatusFilter('ALL', this)">All (28)</button>
+        <button class="pill" onclick="setStatusFilter('ACCEPTED', this)">✅ Accepted (14)</button>
+        <button class="pill" onclick="setStatusFilter('REJECTED', this)">❌ Rejected (14)</button>
+        <button class="pill" onclick="setCategoryFilter('zirconia_crowns', this)">Zirconia</button>
+        <button class="pill" onclick="setCategoryFilter('clear_aligners', this)">Aligners</button>
+        <button class="pill" onclick="setCategoryFilter('dentures_cadcam', this)">Dentures</button>
+        <button class="pill" onclick="setCategoryFilter('local_b2b_lab', this)">Nagpur Lab</button>
+      </div>
+    </div>
+
+    <!-- Table -->
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Status</th>
+            <th>Search Query</th>
+            <th>Category</th>
+            <th>Intent</th>
+            <th>Priority Score</th>
+            <th>Laya Decision Rationale</th>
+          </tr>
+        </thead>
+        <tbody id="keywordsTableBody">
+          <!-- Rendered via JavaScript -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Generated Meta Tag Box -->
+    <div class="meta-box">
+      <h3>
+        <span>Live Generated Meta Keywords Tag (Active on Website)</span>
+        <button class="btn btn-secondary" onclick="copyMetaTag()">Copy HTML Tag</button>
+      </h3>
+      <p style="color: var(--text-muted); font-size: 13px;">This tag is automatically injected into <code>deploy/index.html</code> from the accepted pool.</p>
+      <div class="code-preview" id="metaTagPreview">
+        &lt;meta name="keywords" content="..."&gt;
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const DATA = [
+      { keyword: "zirconia crown manufacturers in india", category: "zirconia_crowns", intent: "commercial_b2b", status: "ACCEPTED", score: 10, engine: "laya", reason: "Direct match for Hesyra zirconia milling & lab fabrication catalog." },
+      { keyword: "price range of zirconia crown", category: "zirconia_crowns", intent: "commercial_b2b", status: "REJECTED", score: 4, engine: "laya", reason: "Consumer/patient retail price shopping, not lab-to-dentist wholesale." },
+      { keyword: "zirconia crown cutting", category: "zirconia_crowns", intent: "commercial_b2b", status: "REJECTED", score: 4, engine: "laya", reason: "Clinical tooth prep procedure search, non-commercial for lab." },
+      { keyword: "zirconia crown bridge", category: "zirconia_crowns", intent: "commercial_b2b", status: "REJECTED", score: 5, engine: "laya", reason: "Generic query without purchasing intent; low commercial value." },
+      { keyword: "zirconia crown lab procedure", category: "zirconia_crowns", intent: "commercial_b2b", status: "ACCEPTED", score: 10, engine: "laya", reason: "High-intent dental specialist search for digital lab manufacturing steps." },
+      { keyword: "zirconia crown lab cost", category: "zirconia_crowns", intent: "commercial_b2b", status: "REJECTED", score: 5, engine: "laya", reason: "Overly broad, ambiguous commercial value filtered out." },
+      { keyword: "zirconia crown cap price", category: "zirconia_crowns", intent: "commercial_b2b", status: "REJECTED", score: 3, engine: "laya", reason: "Retail patient inquiry using consumer wording ('cap price')." },
+      { keyword: "aligner in nagpur", category: "local_b2b_lab", intent: "commercial_b2b", status: "ACCEPTED", score: 10, engine: "laya", reason: "Direct local geo-targeted demand for clear aligners in Nagpur." },
+      { keyword: "clear b aligners", category: "clear_aligners", intent: "commercial_b2b", status: "REJECTED", score: 3, engine: "laya", reason: "Unrecognized or garbled brand query." },
+      { keyword: "best clear aligners near me", category: "clear_aligners", intent: "commercial_b2b", status: "ACCEPTED", score: 9, engine: "laya", reason: "High intent commercial local discovery." },
+      { keyword: "cost of clear aligners in india", category: "clear_aligners", intent: "commercial_b2b", status: "REJECTED", score: 4, engine: "laya", reason: "Consumer retail inquiry." },
+      { keyword: "aligners cost near nagpur maharashtra", category: "local_b2b_lab", intent: "commercial_b2b", status: "REJECTED", score: 4, engine: "laya", reason: "Retail consumer price comparison in Nagpur." },
+      { keyword: "clear aligners buy", category: "clear_aligners", intent: "commercial_b2b", status: "ACCEPTED", score: 9, engine: "laya", reason: "Direct transactional intent for aligner systems." },
+      { keyword: "clear aligners manufacturers", category: "clear_aligners", intent: "commercial_b2b", status: "ACCEPTED", score: 10, engine: "laya", reason: "B2B clinic search looking directly for manufacturing source (Hesyra)." },
+      { keyword: "cad cam dentures ppt", category: "dentures_cadcam", intent: "commercial_b2b", status: "REJECTED", score: 2, engine: "laya", reason: "Academic/student search for slide presentations." },
+      { keyword: "materials used in cad cam complete dentures", category: "dentures_cadcam", intent: "commercial_b2b", status: "ACCEPTED", score: 8, engine: "laya", reason: "Clinical prosthodontic technical inquiry." },
+      { keyword: "cad cam dental lab reviews", category: "dentures_cadcam", intent: "commercial_b2b", status: "ACCEPTED", score: 9, engine: "laya", reason: "Clinics vetting laboratory credibility and service quality." },
+      { keyword: "cad cam digital dentures", category: "dentures_cadcam", intent: "commercial_b2b", status: "ACCEPTED", score: 8, engine: "laya", reason: "Matches 3D printed and milled denture fabrication line." },
+      { keyword: "cad cam removable partial dentures", category: "dentures_cadcam", intent: "commercial_b2b", status: "ACCEPTED", score: 8, engine: "laya", reason: "Core digital RPD product offering." },
+      { keyword: "cad cam dental lab. llc photos", category: "dentures_cadcam", intent: "commercial_b2b", status: "ACCEPTED", score: 9, engine: "laya", reason: "Doctors looking to inspect dental lab facility and precision cases." },
+      { keyword: "cad cam dental companies", category: "local_b2b_lab", intent: "commercial_b2b", status: "ACCEPTED", score: 8, engine: "laya", reason: "B2B commercial exploration of lab partners." },
+      { keyword: "creative dental lab nagpur", category: "local_b2b_lab", intent: "commercial_b2b", status: "ACCEPTED", score: 10, engine: "laya", reason: "High-value local competitor search capture in Nagpur." },
+      { keyword: "rk dental lab nagpur", category: "local_b2b_lab", intent: "commercial_b2b", status: "REJECTED", score: 4, engine: "laya", reason: "Competitor branded query filtered to avoid trademark conflict." },
+      { keyword: "nagpur dental hospital", category: "local_b2b_lab", intent: "commercial_b2b", status: "REJECTED", score: 3, engine: "laya", reason: "Hospital/clinic facility query, not dental laboratory partner." },
+      { keyword: "dental lab nagpur", category: "local_b2b_lab", intent: "commercial_b2b", status: "ACCEPTED", score: 10, engine: "laya", reason: "Prime commercial keyword for Hesyra's home territory." },
+      { keyword: "is labcorp a reputable lab", category: "local_b2b_lab", intent: "commercial_b2b", status: "REJECTED", score: 1, engine: "laya", reason: "General clinical pathology laboratory outside dental field." },
+      { keyword: "vishal dental lab nagpur", category: "local_b2b_lab", intent: "commercial_b2b", status: "REJECTED", score: 4, engine: "laya", reason: "Competitor branded query filtered." },
+      { keyword: "vishal dental lab dental lab in nagpur photos", category: "zirconia_crowns", intent: "commercial_b2b", status: "REJECTED", score: 3, engine: "laya", reason: "Competitor specific photo listing." }
+    ];
+
+    let currentStatus = 'ALL';
+    let currentCategory = 'ALL';
+
+    function renderTable() {
+      const search = (document.getElementById('searchInput').value || '').toLowerCase();
+      const tbody = document.getElementById('keywordsTableBody');
+      tbody.innerHTML = '';
+
+      const filtered = DATA.filter(item => {
+        const matchStatus = (currentStatus === 'ALL') || (item.status === currentStatus);
+        const matchCategory = (currentCategory === 'ALL') || (item.category === currentCategory);
+        const matchSearch = item.keyword.toLowerCase().includes(search) || item.reason.toLowerCase().includes(search);
+        return matchStatus && matchCategory && matchSearch;
+      });
+
+      filtered.forEach(item => {
+        const tr = document.createElement('tr');
+        const isAcc = item.status === 'ACCEPTED';
+        const fillClass = item.score >= 8 ? 'high' : (item.score >= 5 ? 'med' : 'low');
+
+        tr.innerHTML = `
+          <td>
+            <span class="status-badge ${isAcc ? 'accepted' : 'rejected'}">
+              ${isAcc ? '● Accepted' : '✕ Rejected'}
+            </span>
+          </td>
+          <td>
+            <div class="kw-title">
+              ${item.keyword}
+            </div>
+          </td>
+          <td><span class="tag">${item.category.replace('_', ' ')}</span></td>
+          <td><span class="tag">${item.intent}</span></td>
+          <td>
+            <div class="score-bar-wrap">
+              <span class="score-num">${item.score}/10</span>
+              <div class="score-track">
+                <div class="score-fill ${fillClass}" style="width: ${item.score * 10}%"></div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="decision-reason">${item.reason}</div>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      if (filtered.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: var(--text-muted); padding: 36px;">No search terms match current filter.</td></tr>';
+      }
+
+      // Update meta tag preview
+      const acceptedList = DATA.filter(d => d.status === 'ACCEPTED').map(d => d.keyword).join(', ');
+      document.getElementById('metaTagPreview').innerText = '<meta name="keywords" content="' + acceptedList + '">';
+    }
+
+    function setStatusFilter(status, el) {
+      currentStatus = status;
+      currentCategory = 'ALL';
+      document.querySelectorAll('.filter-pills .pill').forEach(p => p.classList.remove('active'));
+      el.classList.add('active');
+      renderTable();
+    }
+
+    function setCategoryFilter(cat, el) {
+      currentCategory = cat;
+      currentStatus = 'ALL';
+      document.querySelectorAll('.filter-pills .pill').forEach(p => p.classList.remove('active'));
+      el.classList.add('active');
+      renderTable();
+    }
+
+    function filterKeywords() {
+      renderTable();
+    }
+
+    function copyMetaTag() {
+      const accepted = DATA.filter(d => d.status === 'ACCEPTED').map(d => d.keyword).join(', ');
+      const tag = '<meta name="keywords" content="' + accepted + '">';
+      navigator.clipboard.writeText(tag);
+      alert('Copied SEO Meta Tag to clipboard!');
+    }
+
+    renderTable();
+  </script>
+</body>
+</html>

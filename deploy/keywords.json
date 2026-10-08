@@ -1,24 +1,33 @@
 {
-  "generated_at": "2026-10-09T01:12:36.917366",
+  "generated_at": "2026-10-09T01:18:43.391579",
   "month_label": "October 2026",
-  "total_keywords": 10,
+  "total_keywords": 14,
+  "total_evaluated": 28,
+  "total_rejected": 14,
   "top_keywords": [
     {
-      "keyword": "zirconia crown manufacturer",
+      "keyword": "zirconia crown manufacturers in india",
       "category": "zirconia_crowns",
       "intent": "commercial_b2b",
       "priority_score": 10,
       "engine": "laya"
     },
     {
-      "keyword": "aligner manufacturer",
+      "keyword": "zirconia crown lab procedure",
+      "category": "zirconia_crowns",
+      "intent": "commercial_b2b",
+      "priority_score": 10,
+      "engine": "laya"
+    },
+    {
+      "keyword": "aligner in nagpur",
       "category": "local_b2b_lab",
       "intent": "commercial_b2b",
       "priority_score": 10,
       "engine": "laya"
     },
     {
-      "keyword": "clear aligners manufacturers in india",
+      "keyword": "clear aligners manufacturers",
       "category": "clear_aligners",
       "intent": "commercial_b2b",
       "priority_score": 10,
@@ -32,43 +41,64 @@
       "engine": "laya"
     },
     {
-      "keyword": "nagpur dental lab",
+      "keyword": "dental lab nagpur",
       "category": "local_b2b_lab",
       "intent": "commercial_b2b",
       "priority_score": 10,
       "engine": "laya"
     },
     {
-      "keyword": "zirconia crown clearance",
-      "category": "zirconia_crowns",
+      "keyword": "best clear aligners near me",
+      "category": "clear_aligners",
       "intent": "commercial_b2b",
       "priority_score": 9,
       "engine": "laya"
     },
     {
-      "keyword": "cad cam dental lab jobs",
+      "keyword": "clear aligners buy",
+      "category": "clear_aligners",
+      "intent": "commercial_b2b",
+      "priority_score": 9,
+      "engine": "laya"
+    },
+    {
+      "keyword": "cad cam dental lab reviews",
       "category": "dentures_cadcam",
       "intent": "commercial_b2b",
       "priority_score": 9,
       "engine": "laya"
     },
     {
-      "keyword": "cad cam denture design",
+      "keyword": "cad cam dental lab. llc photos",
+      "category": "dentures_cadcam",
+      "intent": "commercial_b2b",
+      "priority_score": 9,
+      "engine": "laya"
+    },
+    {
+      "keyword": "materials used in cad cam complete dentures",
       "category": "dentures_cadcam",
       "intent": "commercial_b2b",
       "priority_score": 8,
       "engine": "laya"
     },
     {
-      "keyword": "cad cam partial dentures",
+      "keyword": "cad cam digital dentures",
       "category": "dentures_cadcam",
       "intent": "commercial_b2b",
       "priority_score": 8,
       "engine": "laya"
     },
     {
-      "keyword": "cad cam full denture",
+      "keyword": "cad cam removable partial dentures",
       "category": "dentures_cadcam",
+      "intent": "commercial_b2b",
+      "priority_score": 8,
+      "engine": "laya"
+    },
+    {
+      "keyword": "cad cam dental companies",
+      "category": "local_b2b_lab",
       "intent": "commercial_b2b",
       "priority_score": 8,
       "engine": "laya"
@@ -77,23 +107,23 @@
   "by_category": {
     "zirconia_crowns": [
       {
-        "keyword": "zirconia crown manufacturer",
+        "keyword": "zirconia crown manufacturers in india",
         "category": "zirconia_crowns",
         "intent": "commercial_b2b",
         "priority_score": 10,
         "engine": "laya"
       },
       {
-        "keyword": "zirconia crown clearance",
+        "keyword": "zirconia crown lab procedure",
         "category": "zirconia_crowns",
         "intent": "commercial_b2b",
-        "priority_score": 9,
+        "priority_score": 10,
         "engine": "laya"
       }
     ],
     "local_b2b_lab": [
       {
-        "keyword": "aligner manufacturer",
+        "keyword": "aligner in nagpur",
         "category": "local_b2b_lab",
         "intent": "commercial_b2b",
         "priority_score": 10,
@@ -107,46 +137,74 @@
         "engine": "laya"
       },
       {
-        "keyword": "nagpur dental lab",
+        "keyword": "dental lab nagpur",
         "category": "local_b2b_lab",
         "intent": "commercial_b2b",
         "priority_score": 10,
+        "engine": "laya"
+      },
+      {
+        "keyword": "cad cam dental companies",
+        "category": "local_b2b_lab",
+        "intent": "commercial_b2b",
+        "priority_score": 8,
         "engine": "laya"
       }
     ],
     "clear_aligners": [
       {
-        "keyword": "clear aligners manufacturers in india",
+        "keyword": "clear aligners manufacturers",
         "category": "clear_aligners",
         "intent": "commercial_b2b",
         "priority_score": 10,
+        "engine": "laya"
+      },
+      {
+        "keyword": "best clear aligners near me",
+        "category": "clear_aligners",
+        "intent": "commercial_b2b",
+        "priority_score": 9,
+        "engine": "laya"
+      },
+      {
+        "keyword": "clear aligners buy",
+        "category": "clear_aligners",
+        "intent": "commercial_b2b",
+        "priority_score": 9,
         "engine": "laya"
       }
     ],
     "dentures_cadcam": [
       {
-        "keyword": "cad cam dental lab jobs",
+        "keyword": "cad cam dental lab reviews",
         "category": "dentures_cadcam",
         "intent": "commercial_b2b",
         "priority_score": 9,
         "engine": "laya"
       },
       {
-        "keyword": "cad cam denture design",
+        "keyword": "cad cam dental lab. llc photos",
+        "category": "dentures_cadcam",
+        "intent": "commercial_b2b",
+        "priority_score": 9,
+        "engine": "laya"
+      },
+      {
+        "keyword": "materials used in cad cam complete dentures",
         "category": "dentures_cadcam",
         "intent": "commercial_b2b",
         "priority_score": 8,
         "engine": "laya"
       },
       {
-        "keyword": "cad cam partial dentures",
+        "keyword": "cad cam digital dentures",
         "category": "dentures_cadcam",
         "intent": "commercial_b2b",
         "priority_score": 8,
         "engine": "laya"
       },
       {
-        "keyword": "cad cam full denture",
+        "keyword": "cad cam removable partial dentures",
         "category": "dentures_cadcam",
         "intent": "commercial_b2b",
         "priority_score": 8,
